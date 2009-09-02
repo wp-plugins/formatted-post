@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Formatted post v0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-08-31 03:26+0800\n"
+"Last-Translator: admin <kiroro.k@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: formated_post.php:15
+#: formated_post.php:64
+#@ formatted_post
+msgid "Formatted post"
+msgstr "格式化發文"
+
+#: formated_post.php:16
+#: formated_post.php:135
+#@ formatted_post
+msgid "Post with Format"
+msgstr "格式化發文"
+
+#: formated_post.php:68
+#@ formatted_post
+msgid "Updated"
+msgstr "更新成功"
+
+#: formated_post.php:69
+#@ formatted_post
+msgid "Deleted"
+msgstr "已刪除"
+
+#: formated_post.php:73
+#@ formatted_post
+msgid "New template"
+msgstr "新的板模"
+
+#: formated_post.php:76
+#@ formatted_post
+msgid "Edit exist format:"
+msgstr "編輯已存在之格式"
+
+#: formated_post.php:79
+#: formated_post.php:132
+#@ formatted_post
+msgid "Template"
+msgstr "板模"
+
+#: formated_post.php:84
+#@ formatted_post
+msgid "Select a category as default category:"
+msgstr "選擇一個分類作為此發文的預設分類。"
+
+#: formated_post.php:86
+msgid "All"
+msgstr ""
+
+#: formated_post.php:87
+#@ formatted_post
+msgid "Enter the formmated post"
+msgstr "輸入板模（支援html）"
+
+#: formated_post.php:92
+#@ formatted_post
+msgid "Edit"
+msgstr "編輯"
+
+#: formated_post.php:92
+#@ formatted_post
+msgid "Add"
+msgstr "增加"
+
+#: formated_post.php:94
+#@ formatted_post
+msgid "delete"
+msgstr "刪除"
+
+#: formated_post.php:99
+msgid "Template Preview:"
+msgstr ""
+
+#: formated_post.php:114
+#: formated_post.php:144
+#@ formatted_post
+msgid "Publish"
+msgstr "發表"
+
+#: formated_post.php:125
+#@ formatted_post
+msgid "Select a template:"
+msgstr "選擇板模"
+
+#: formated_post.php:138
+#@ formatted_post
+msgid "Title:"
+msgstr "文章標題"
+
+#: formated_post.php:145
+#@ formatted_post
+msgid "Save as draft"
+msgstr "以草稿儲存"
+
