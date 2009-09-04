@@ -4,7 +4,7 @@ Donate link: http://example.com/
 Tags: post,format,formatted,template
 Requires at least: 2.5
 Tested up to: 2.8
-Stable tag: 0.1
+Stable tag: 1.01
 
 This plugin is for the users who need to post with fixed format regularly,and it's first plugin I develope solo.
 == Description ==
