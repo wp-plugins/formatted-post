@@ -2,7 +2,7 @@
 Plugin Name: Formatted post
 Plugin URI: http://kiro.twbbs.org/wp/?p=504
 Description: for users who need to post with the same format often.
-Version: 1.0
+Version: 1.01
 Author: Kiro G.
 Author URI: http://kiro.twbbs.org/wp/
 */
@@ -42,6 +42,7 @@ if(empty($t)) {$t=array(0=>array("category"=>$_POST['category_parent'],"used"=>'
 $type=0;
 }else {
 $t[]=array("category"=>$_POST['category_parent'],"used"=>"Y");
+end($t);
 $type=key($t);
 	}
 update_option(FP."_index",$t);
@@ -58,7 +59,7 @@ update_option(FP."_index",$t);
 
 }
 ?>
-<script>location="?page=<?php echo $_POST['page']?>&msg=1&type=<?php if($_POST['type']!=-1) echo $_POST['type']."&action=edit"; ?>";
+<script>location="?page=<?php echo $_POST['page']?>&msg=1&type=<?php if($_POST['type']!=-1) echo $_POST['type']; else  echo $type;?>&action=edit";
 </script>
 <?
 //header("location:?page=".$_POST['page']);
